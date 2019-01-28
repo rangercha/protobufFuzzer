@@ -1,0 +1,8 @@
+message MetricReverse {
+  repeated string tags = 1;
+  required float value = 3;
+  required string type = 2;
+  required string name = 4;
+  required int32 herp = 5;
+  
+}
